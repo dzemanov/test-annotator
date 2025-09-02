@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-annotator
+  annotations:
+    github.com/project-slug: dzemanov/test-annotator
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/createdAt: 9/2/2025, 11:54:46 AM
+    custom.io/other: value
+    backstage.io/template-version: 0.0.1
+  labels:
+    other: test-label
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/janus-authors
+  scaffoldedFrom: template:default/create-react-app-template-with-timestamp-entityref
