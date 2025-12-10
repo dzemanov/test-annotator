@@ -14,5 +14,5 @@ metadata:
 spec:
   type: website
   lifecycle: experimental
-  owner: group:default/janus-authors
   scaffoldedFrom: template:default/create-react-app-template-with-timestamp-entityref
+  owner: group:default/janus-authors
